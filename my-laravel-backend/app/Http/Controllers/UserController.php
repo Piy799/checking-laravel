@@ -25,7 +25,7 @@ class UserController extends Controller
         $user->name = $name;
         $user->email=$email;
         $user->save();
-
+ 
 
 
         return response()->json([
